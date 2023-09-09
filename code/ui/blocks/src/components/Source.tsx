@@ -12,7 +12,7 @@ const StyledSyntaxHighlighter: React.FunctionComponent<SyntaxHighlighterProps> =
   // DocBlocks-specific styling and overrides
   fontSize: `${theme.typography.size.s2 - 1}px`,
   lineHeight: '19px',
-  margin: '25px 0 40px',
+  margin: '25px 0 30px',
   borderRadius: theme.appBorderRadius,
   boxShadow:
     theme.base === 'light' ? 'rgba(0, 0, 0, 0.10) 0 1px 3px 0' : 'rgba(0, 0, 0, 0.20) 0 2px 5px 0',
